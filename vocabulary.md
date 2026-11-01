@@ -8,7 +8,7 @@ in my own words, based on what I understand right now. I plan to keep expanding 
 
 ---
 
-## 🧠 Models and Basics
+##  Models and Basics
 
 | Term | My explanation | Example / where I met it |
 |---|---|---|
@@ -21,7 +21,7 @@ in my own words, based on what I understand right now. I plan to keep expanding 
 | **Context window** | The model's "short-term memory": the maximum amount of text (in tokens) it can look at in one request. Anything outside it, the model simply doesn't see. | A coding assistant can't fit a whole big project into its context window |
 | **Inference** | The moment when a trained model is actually *used* to produce an answer. Training happens once; inference happens every time someone sends a request. | Every Copilot suggestion is one inference call |
 
-## ✍️ Working with Prompts
+##  Working with Prompts
 
 | Term | My explanation | Example / where I met it |
 |---|---|---|
@@ -30,7 +30,7 @@ in my own words, based on what I understand right now. I plan to keep expanding 
 | **Prompt engineering** | The skill of writing and testing prompts (adding examples, structure, rules) to get reliable results. | Marketing teams putting brand guidelines into prompts |
 | **Temperature** | A setting that controls randomness. Low = predictable and repeatable; high = more creative and surprising (and riskier). | Low for legal summaries, higher for ad slogans |
 
-## 📚 Data and Knowledge
+## Data and Knowledge
 
 | Term | My explanation | Example / where I met it |
 |---|---|---|
@@ -40,7 +40,7 @@ in my own words, based on what I understand right now. I plan to keep expanding 
 | **Grounding** | Making sure the AI's answer is based on real, verifiable sources, ideally with links or citations. | Legal tools linking every statement to a real case |
 | **Fine-tuning** | Additional training of an existing model on your own specific data so it gets better at one particular job or style. | A model fine-tuned on a company's past marketing texts |
 
-## 🛡️ Quality, Safety and Risks
+##  Quality, Safety and Risks
 
 | Term | My explanation | Example / where I met it |
 |---|---|---|
@@ -52,7 +52,7 @@ in my own words, based on what I understand right now. I plan to keep expanding 
 | **Deepfake** | Realistic fake video, image or audio of a real person, created with GenAI. | A fake video of a politician; a cloned voice in a scam call |
 | **PII (Personally Identifiable Information)** | Any data that can identify a specific person (name, address, phone, card number). It must be protected and often removed before reaching the AI. | Customer data in support chats |
 
-## 🤖 Agents and Production
+##  Agents and Production
 
 | Term | My explanation | Example / where I met it |
 |---|---|---|
@@ -62,17 +62,8 @@ in my own words, based on what I understand right now. I plan to keep expanding 
 
 ---
 
-## 🔧 Useful Verbs (how SMEs actually talk)
 
-| Verb | Meaning in GenAI context | Example sentence |
-|---|---|---|
-| **to prompt** | to give a model instructions | "I prompted the model to answer only in JSON." |
-| **to ground** | to connect answers to trusted sources | "We need to ground the bot in our policy documents." |
-| **to fine-tune** | to train a model further on specific data | "Should we fine-tune or just improve the prompt?" |
-| **to hallucinate** | to generate false information | "The model hallucinated a library that doesn't exist." |
-| **to embed** | to convert text into an embedding | "We embed every document before storing it." |
-| **to orchestrate** | to coordinate several models, tools or agents in one workflow | "The workflow orchestrates three agents and two APIs." |
 
----
+
 
 
