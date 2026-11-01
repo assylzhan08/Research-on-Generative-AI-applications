@@ -18,6 +18,8 @@ For each use case below I tried to answer four simple questions:
 3. **Where does it break?** (weak points)
 4. **Who is already doing it?** (existing implementations)
 
+   Most of these products are not built from scratch. They run on top of a foundation model from companies like OpenAI, Anthropic, Google or Meta.
+
 ## Contents
 
 1. [Coding Assistants](#1-coding-assistants)
@@ -43,7 +45,7 @@ documentation, and new team members understand an old codebase faster. Since dev
 expensive, even a small productivity gain adds up quickly across a big team.
 
 **Technical challenges and weak points.** The hardest problem is context. A real project has
-thousands of files, but the model's context window is limited, so the tool has to decide which
+thousands of files, but the model's context window is limited (it is measured in tokens), so the tool has to decide which
 files are relevant before it sends anything to the LLM. Speed also matters a lot: if a suggestion
 takes more than a second, people stop waiting for it, so low latency during inference is critical.
 The weak points are serious, though. Generated code can look clean and still contain bugs, use
