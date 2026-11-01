@@ -1,7 +1,7 @@
 # GenAI Vocabulary
 
 *My personal dictionary of terms I need to know to talk like an SME in GenAI application
-development and usage. I picked these terms from my [report](report.md) and explained them
+development and usage. I picked these terms from my [report.md](report.md) and explained them
 in my own words, based on what I understand right now. I plan to keep expanding it during the course.*
 
 
