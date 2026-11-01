@@ -4,7 +4,7 @@
 development and usage. I picked these terms from my [report](report.md) and explained them
 in my own words, based on what I understand right now. I plan to keep expanding it during the course.*
 
-*Last updated: November 2026 · Terms: 25 + 6 verbs*
+
 
 ---
 
