@@ -4,7 +4,7 @@ Research on generative AI applications, implementation challenges, and terminolo
 
 ## Contents
 -  [Research report](report.md) – 10 GenAI use cases: business value, technical challenges, weak points, real products
--  [Vocabulary](vocabulary.md) – 27 GenAI terms explained in my own words
+-  [Vocabulary](vocabulary.md) – 32 GenAI terms (27 explained manually + 5 added by a CodeMie agent)
 -  [Relations graph](graph/) – explicit vs implicit usage of vocabulary terms in the report
 
 ## Relations graph (optional subtask)
