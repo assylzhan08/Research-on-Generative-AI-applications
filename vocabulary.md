@@ -67,3 +67,13 @@ in my own words, based on what I understand right now. I plan to keep expanding 
 
 
 
+
+## Terms added by CodeMie agent
+
+| Term | My explanation | Example / where I met it |
+|---|---|---|
+| **Chain-of-thought** | Step-by-step reasoning a model uses to reach an answer. | Breaking a hard problem into small steps |
+| **Model Context Protocol (MCP)** | A standard way to connect an LLM to tools and data sources. | An agent using MCP to read files and call APIs |
+| **Quantization** | Making a model smaller and faster by using lower-precision numbers. | Running an LLM locally on a laptop |
+| **LLM-as-a-judge** | Using an LLM to score or compare other AI outputs. | Auto-grading summaries with a rubric |
+| **Agentic workflow** | A workflow where an agent plans, uses tools and repeats steps until the task is done. | A coding agent that writes, tests and fixes code |
