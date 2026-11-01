@@ -1,6 +1,5 @@
 # Research on Generative AI Applications
 
-*Author: Assylzhan Toktassyn · Course assignment · Last updated: November 2026*
 
 ---
 
