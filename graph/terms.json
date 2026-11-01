@@ -1,1 +1,169 @@
-
+{
+  "description": "GenAI vocabulary terms with explicit forms (the term itself) and implicit forms (phrases from report.md that express the same idea without naming the term). Implicit phrases were drafted with DIAL AI chat and checked manually against the report.",
+  "source_report": "report.md",
+  "source_vocabulary": "vocabulary.md",
+  "terms": [
+    {
+      "term": "Generative AI",
+      "category": "Models and Basics",
+      "explicit": ["Generative AI", "GenAI"],
+      "implicit": ["generated", "generating", "generation", "AI-generated"]
+    },
+    {
+      "term": "LLM",
+      "category": "Models and Basics",
+      "explicit": ["LLM", "LLMs", "large language model", "large language models"],
+      "implicit": ["the model", "a model"]
+    },
+    {
+      "term": "Foundation model",
+      "category": "Models and Basics",
+      "explicit": ["foundation model", "foundation models"],
+      "implicit": ["generative models", "general-purpose model"]
+    },
+    {
+      "term": "Multimodal",
+      "category": "Models and Basics",
+      "explicit": ["multimodal"],
+      "implicit": ["speech into text", "text description into", "voice models", "image and video models"]
+    },
+    {
+      "term": "Diffusion model",
+      "category": "Models and Basics",
+      "explicit": ["diffusion model", "diffusion models"],
+      "implicit": ["random noise", "image generator", "image generators"]
+    },
+    {
+      "term": "Token",
+      "category": "Models and Basics",
+      "explicit": ["token", "tokens"],
+      "implicit": ["pieces of text", "chunks of text"]
+    },
+    {
+      "term": "Context window",
+      "category": "Models and Basics",
+      "explicit": ["context window", "context windows"],
+      "implicit": ["thousands of files", "thousands of pages", "long documents", "short-term memory"]
+    },
+    {
+      "term": "Inference",
+      "category": "Models and Basics",
+      "explicit": ["inference"],
+      "implicit": ["computing power"]
+    },
+    {
+      "term": "Prompt",
+      "category": "Working with Prompts",
+      "explicit": ["prompt", "prompts", "prompted", "prompting"],
+      "implicit": ["plain-language request", "single request"]
+    },
+    {
+      "term": "System prompt",
+      "category": "Working with Prompts",
+      "explicit": ["system prompt", "system prompts"],
+      "implicit": ["brand guidelines", "guide the model"]
+    },
+    {
+      "term": "Prompt engineering",
+      "category": "Working with Prompts",
+      "explicit": ["prompt engineering"],
+      "implicit": ["brand voice"]
+    },
+    {
+      "term": "Temperature",
+      "category": "Working with Prompts",
+      "explicit": ["temperature"],
+      "implicit": ["creative or predictable", "randomness"]
+    },
+    {
+      "term": "RAG",
+      "category": "Data and Knowledge",
+      "explicit": ["RAG", "retrieval-augmented generation"],
+      "implicit": ["help center", "help content", "company documents", "real documents", "sources you upload"]
+    },
+    {
+      "term": "Embedding",
+      "category": "Data and Knowledge",
+      "explicit": ["embedding", "embeddings", "embed"],
+      "implicit": ["by meaning"]
+    },
+    {
+      "term": "Vector database",
+      "category": "Data and Knowledge",
+      "explicit": ["vector database", "vector databases"],
+      "implicit": ["search all of these sources"]
+    },
+    {
+      "term": "Grounding",
+      "category": "Data and Knowledge",
+      "explicit": ["grounding", "grounded", "ground"],
+      "implicit": ["show their sources", "verifiable source", "original documents", "back to the original"]
+    },
+    {
+      "term": "Fine-tuning",
+      "category": "Data and Knowledge",
+      "explicit": ["fine-tuning", "fine-tuned", "fine-tune"],
+      "implicit": ["past content", "extra care"]
+    },
+    {
+      "term": "Hallucination",
+      "category": "Quality, Safety and Risks",
+      "explicit": ["hallucination", "hallucinations", "hallucinate", "hallucinated"],
+      "implicit": ["doesn't exist", "didn't exist", "never existed", "full confidence", "incorrectly", "answer is wrong"]
+    },
+    {
+      "term": "Guardrails",
+      "category": "Quality, Safety and Risks",
+      "explicit": ["guardrails", "guardrail"],
+      "implicit": ["strict permissions", "limit what", "protections against misuse"]
+    },
+    {
+      "term": "Prompt injection",
+      "category": "Quality, Safety and Risks",
+      "explicit": ["prompt injection"],
+      "implicit": ["trick the bot", "malicious email"]
+    },
+    {
+      "term": "Human-in-the-loop",
+      "category": "Quality, Safety and Risks",
+      "explicit": ["human-in-the-loop", "human in the loop"],
+      "implicit": ["hand the conversation to a human", "passes complex cases to humans", "read and approve", "human approval", "final decision", "double-check", "without checking", "without really reading"]
+    },
+    {
+      "term": "Evaluation",
+      "category": "Quality, Safety and Risks",
+      "explicit": ["evaluation", "evals"],
+      "implicit": ["testing", "test their systems"]
+    },
+    {
+      "term": "Deepfake",
+      "category": "Quality, Safety and Risks",
+      "explicit": ["deepfake", "deepfakes"],
+      "implicit": ["fake videos", "fake someone's voice", "voice fraud", "voice cloning"]
+    },
+    {
+      "term": "PII",
+      "category": "Quality, Safety and Risks",
+      "explicit": ["PII", "personally identifiable information"],
+      "implicit": ["patient data", "children's data", "private source code", "client documents", "card details"]
+    },
+    {
+      "term": "AI agent",
+      "category": "Agents and Production",
+      "explicit": ["AI agent", "AI agents"],
+      "implicit": ["an agent", "agents work", "agents can", "agent systems", "take actions", "takes actions"]
+    },
+    {
+      "term": "Tool calling",
+      "category": "Agents and Production",
+      "explicit": ["tool calling"],
+      "implicit": ["which tool", "wrong tool", "integrations"]
+    },
+    {
+      "term": "Latency",
+      "category": "Agents and Production",
+      "explicit": ["latency"],
+      "implicit": ["speed", "in seconds", "more than a second"]
+    }
+  ]
+}
