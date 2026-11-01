@@ -272,16 +272,16 @@ consent and add protections against misuse.
 
 | # | Use case | Maturity (my opinion) | Biggest risk |
 |---|---|---|---|
-| 1 | Coding assistants | 🟢 High | Insecure or buggy code accepted without review |
-| 2 | Customer support | 🟢 High | Hallucinated policies and promises |
-| 3 | Knowledge assistants | 🟡 Medium | Permission leaks, outdated sources |
-| 4 | Marketing content | 🟢 High | Generic content, unchecked facts |
-| 5 | Image and video | 🟡 Medium | Deepfakes and copyright |
-| 6 | Healthcare documentation | 🟡 Medium | Errors in medical notes |
-| 7 | Legal analysis | 🟡 Medium | Fake citations, confidentiality |
-| 8 | Education | 🟡 Medium | Confident wrong explanations, over-dependence |
-| 9 | AI agents | 🔴 Early | Error accumulation, prompt injection |
-| 10 | Translation and voice | 🟢 High | Cultural mistakes, voice fraud |
+| 1 | Coding assistants |  High | Insecure or buggy code accepted without review |
+| 2 | Customer support | High | Hallucinated policies and promises |
+| 3 | Knowledge assistants |  Medium | Permission leaks, outdated sources |
+| 4 | Marketing content |  High | Generic content, unchecked facts |
+| 5 | Image and video | Medium | Deepfakes and copyright |
+| 6 | Healthcare documentation | Medium | Errors in medical notes |
+| 7 | Legal analysis |  Medium | Fake citations, confidentiality |
+| 8 | Education | Medium | Confident wrong explanations, over-dependence |
+| 9 | AI agents |  Early | Error accumulation, prompt injection |
+| 10 | Translation and voice |  High | Cultural mistakes, voice fraud |
 
 ---
 
